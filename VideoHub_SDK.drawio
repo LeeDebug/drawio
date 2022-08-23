@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T13:42:06.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uTiHk-tP0TkXR_x9JTKe" version="20.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-23T13:42:41.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Rcq0Lsisd2K2PY655-gc" version="20.2.4" type="github" pages="3">
   <diagram name="Architecture C1" id="PLySDpZhw0bRO1F781s7">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,16 +197,16 @@
           <mxGeometry x="-288.5" y="152" width="104.25" height="160" as="geometry" />
         </mxCell>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-49" value="OTT Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="WoUtKTJ8gSvXgRSbMt4n-48" vertex="1">
-          <mxGeometry x="10.69" y="47" width="82.87" height="30" as="geometry" />
+          <mxGeometry x="12.469999999999999" y="98" width="79.31" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-50" value="LiveTV UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="WoUtKTJ8gSvXgRSbMt4n-48" vertex="1">
-          <mxGeometry x="10.69" y="99" width="79.31" height="30" as="geometry" />
+          <mxGeometry x="12.469999999999999" y="48" width="79.31" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-51" value="3rdApps" style="swimlane;labelBackgroundColor=none;fontColor=default;fillColor=#FFFF99;dashed=1;" parent="WoUtKTJ8gSvXgRSbMt4n-1" vertex="1">
           <mxGeometry x="-174.25" y="152" width="113.75" height="160" as="geometry" />
         </mxCell>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-52" value="Information display" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="WoUtKTJ8gSvXgRSbMt4n-51" vertex="1">
-          <mxGeometry x="15.93" y="40" width="81.88" height="90" as="geometry" />
+          <mxGeometry x="15.93" y="50" width="81.88" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-53" value="Application Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WoUtKTJ8gSvXgRSbMt4n-1" vertex="1">
           <mxGeometry x="-783" y="176" width="70" height="20" as="geometry" />
