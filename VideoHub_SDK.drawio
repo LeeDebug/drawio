@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T13:43:06.752Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TvrvWd09qTTDkBKR1v-I" version="20.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-23T13:44:30.564Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_eVRQReoWdjIdwYZQlAm" version="20.2.4" type="github" pages="3">
   <diagram name="Architecture C1" id="PLySDpZhw0bRO1F781s7">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Architecture C2" id="ueQieiDf-oCZHnueKuFG">
-    <mxGraphModel dx="2328" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-0" />
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-1" parent="WoUtKTJ8gSvXgRSbMt4n-0" />
@@ -205,7 +205,7 @@
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-51" value="3rdApps" style="swimlane;labelBackgroundColor=none;fontColor=default;fillColor=#FFFF99;dashed=1;" parent="WoUtKTJ8gSvXgRSbMt4n-1" vertex="1">
           <mxGeometry x="-174.25" y="152" width="113.75" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WoUtKTJ8gSvXgRSbMt4n-52" value="Information display" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="WoUtKTJ8gSvXgRSbMt4n-51" vertex="1">
+        <mxCell id="WoUtKTJ8gSvXgRSbMt4n-52" value="For Example&lt;br&gt;&amp;nbsp;&lt;div&gt;SeaChange&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="WoUtKTJ8gSvXgRSbMt4n-51" vertex="1">
           <mxGeometry x="15.93" y="50" width="81.88" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-53" value="Application Layer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WoUtKTJ8gSvXgRSbMt4n-1" vertex="1">
