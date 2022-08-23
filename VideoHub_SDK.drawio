@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T13:42:41.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Rcq0Lsisd2K2PY655-gc" version="20.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-23T13:43:06.752Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TvrvWd09qTTDkBKR1v-I" version="20.2.4" type="github" pages="3">
   <diagram name="Architecture C1" id="PLySDpZhw0bRO1F781s7">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Architecture C2" id="ueQieiDf-oCZHnueKuFG">
-    <mxGraphModel dx="1810" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-0" />
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-1" parent="WoUtKTJ8gSvXgRSbMt4n-0" />
@@ -178,13 +178,13 @@
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-42" value="HiPlayer" style="swimlane;labelBackgroundColor=none;fontColor=default;swimlaneFillColor=none;fillColor=#FFFF99;" parent="WoUtKTJ8gSvXgRSbMt4n-1" vertex="1">
           <mxGeometry x="-688" y="152" width="388" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WoUtKTJ8gSvXgRSbMt4n-43" value="OTT" style="swimlane;" parent="WoUtKTJ8gSvXgRSbMt4n-42" vertex="1">
+        <mxCell id="WoUtKTJ8gSvXgRSbMt4n-43" value="LIVE" style="swimlane;" parent="WoUtKTJ8gSvXgRSbMt4n-42" vertex="1">
           <mxGeometry x="18" y="40" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-44" value="OTT Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="WoUtKTJ8gSvXgRSbMt4n-43" vertex="1">
           <mxGeometry x="13.12" y="30" width="66.88" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WoUtKTJ8gSvXgRSbMt4n-45" value="Streaming" style="swimlane;" parent="WoUtKTJ8gSvXgRSbMt4n-42" vertex="1">
+        <mxCell id="WoUtKTJ8gSvXgRSbMt4n-45" value="VOD" style="swimlane;" parent="WoUtKTJ8gSvXgRSbMt4n-42" vertex="1">
           <mxGeometry x="118" y="40" width="255" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WoUtKTJ8gSvXgRSbMt4n-46" value="Own media" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" parent="WoUtKTJ8gSvXgRSbMt4n-45" vertex="1">
