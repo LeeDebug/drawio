@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T06:28:06.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="utPmgTD1SQ1-4zs8u4Pf" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T06:34:34.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wsaU1iy0pVXcHctQ9ioX" version="20.2.7" type="github">
   <diagram id="vQbmHarcGOKyk270IGDX" name="Data Init Logic">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,9 +213,9 @@
         <mxCell id="wEsHkVYPiLB_6dhYGix4-3" value="触发切台逻辑&lt;br&gt;globalToggleChannelTo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="1040" width="160" height="40" as="geometry" />
         </mxCell>
-        <object c4Name="updatePlaybackChannelsList" c4Type="" c4Application="vuex actions" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" placeholders="1" id="wEsHkVYPiLB_6dhYGix4-4">
+        <object c4Name="公共切台逻辑" c4Type="" c4Application="vuex actions" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" placeholders="1" id="wEsHkVYPiLB_6dhYGix4-4">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1001" y="1000" width="399" height="1040" as="geometry" />
+            <mxGeometry x="1001" y="1000" width="399" height="680" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="wEsHkVYPiLB_6dhYGix4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-7" target="wEsHkVYPiLB_6dhYGix4-10">
@@ -229,26 +229,43 @@
         <mxCell id="wEsHkVYPiLB_6dhYGix4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-7" target="wEsHkVYPiLB_6dhYGix4-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-54" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wEsHkVYPiLB_6dhYGix4-32">
+          <mxGeometry x="0.1263" y="-4" relative="1" as="geometry">
+            <mxPoint x="-6" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wEsHkVYPiLB_6dhYGix4-7" value="判断频道准确性" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="1120" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wEsHkVYPiLB_6dhYGix4-10" value="切台失败" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1300" y="1200" width="79" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-31" target="wEsHkVYPiLB_6dhYGix4-35">
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-31" target="wEsHkVYPiLB_6dhYGix4-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wEsHkVYPiLB_6dhYGix4-31" value="更新上一个频道" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1120.5" y="1240" width="160" height="40" as="geometry" />
+          <mxGeometry x="1120" y="1240" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-35" target="wEsHkVYPiLB_6dhYGix4-37">
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-37" target="wEsHkVYPiLB_6dhYGix4-47">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-35" value="更新当前频道" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1120.5" y="1320" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wEsHkVYPiLB_6dhYGix4-37" value="清空频道号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1120.5" y="1400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-47" target="wEsHkVYPiLB_6dhYGix4-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-47" value="构造日志上报参数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1120.5" y="1480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-49" value="进行日志上报" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1120.5" y="1560" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-51" target="wEsHkVYPiLB_6dhYGix4-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-51" value="更新当前频道" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1320" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
