@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T06:27:40.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nW88k4JRZc5JDJujUtiE" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T06:28:06.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="utPmgTD1SQ1-4zs8u4Pf" version="20.2.7" type="github">
   <diagram id="vQbmHarcGOKyk270IGDX" name="Data Init Logic">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -241,8 +241,14 @@
         <mxCell id="wEsHkVYPiLB_6dhYGix4-31" value="更新上一个频道" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1120.5" y="1240" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-35" target="wEsHkVYPiLB_6dhYGix4-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wEsHkVYPiLB_6dhYGix4-35" value="更新当前频道" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1120.5" y="1320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-37" value="清空频道号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1120.5" y="1400" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
