@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T06:16:25.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="1wypbPjrQHfDtg22kS7I" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T06:24:06.270Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uwKoL-ok9Vkq_90feli8" version="20.2.7" type="github">
   <diagram id="vQbmHarcGOKyk270IGDX" name="Data Init Logic">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,91 +210,22 @@
         <mxCell id="wEsHkVYPiLB_6dhYGix4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wEsHkVYPiLB_6dhYGix4-3" target="wEsHkVYPiLB_6dhYGix4-7" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-3" value="触发切台逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-3" value="触发切台逻辑&lt;br&gt;globalToggleChannelTo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1081" y="1040" width="160" height="40" as="geometry" />
         </mxCell>
         <object c4Name="updatePlaybackChannelsList" c4Type="" c4Application="vuex actions" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" placeholders="1" id="wEsHkVYPiLB_6dhYGix4-4">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1001" y="1000" width="480" height="1040" as="geometry" />
+            <mxGeometry x="1001" y="1000" width="399" height="1040" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wEsHkVYPiLB_6dhYGix4-7" target="wEsHkVYPiLB_6dhYGix4-9" parent="1">
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wEsHkVYPiLB_6dhYGix4-7" target="wEsHkVYPiLB_6dhYGix4-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="wEsHkVYPiLB_6dhYGix4-7" target="wEsHkVYPiLB_6dhYGix4-10" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-7" value="isDef ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1121" y="1120" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wEsHkVYPiLB_6dhYGix4-9" target="wEsHkVYPiLB_6dhYGix4-13" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-9" value="get Vuex.currentCategory" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1071" y="1200" width="180" height="40" as="geometry" />
+        <mxCell id="wEsHkVYPiLB_6dhYGix4-7" value="判断频道准确性" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="1120" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="wEsHkVYPiLB_6dhYGix4-10" value="throw new Error" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1241" y="1120" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wEsHkVYPiLB_6dhYGix4-13" target="wEsHkVYPiLB_6dhYGix4-15" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wEsHkVYPiLB_6dhYGix4-13" target="wEsHkVYPiLB_6dhYGix4-18" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-13" value="isDef ?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1121" y="1280" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wEsHkVYPiLB_6dhYGix4-15" target="wEsHkVYPiLB_6dhYGix4-20" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-15" value="filter currentCategory&lt;br&gt;in allChannelsList" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1081" y="1360" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#B3B3B3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="wEsHkVYPiLB_6dhYGix4-25" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1161" y="1440" as="targetPoint" />
-            <mxPoint x="1341" y="1420" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1361" y="1440" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#B3B3B3;" edge="1" source="wEsHkVYPiLB_6dhYGix4-18" target="wEsHkVYPiLB_6dhYGix4-25" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-18" value="commit(&#39;switchCategory&#39;, -1)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1281" y="1280" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="wEsHkVYPiLB_6dhYGix4-20" target="wEsHkVYPiLB_6dhYGix4-28" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-20" value="如果 filter 后 length 为 0 ？&lt;br&gt;保底措施，此处可省略" style="whiteSpace=wrap;html=1;rounded=1;fontColor=#B3B3B3;strokeColor=#B3B3B3;" vertex="1" parent="1">
-          <mxGeometry x="1081" y="1480" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#B3B3B3;" edge="1" source="wEsHkVYPiLB_6dhYGix4-22" target="wEsHkVYPiLB_6dhYGix4-24" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-22" value="commit(&#39;setPlaybackChannelsList&#39;)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1041" y="1640" width="240" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#B3B3B3;" edge="1" source="wEsHkVYPiLB_6dhYGix4-24" target="wEsHkVYPiLB_6dhYGix4-26" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-24" value="set&amp;nbsp;indexOfChannels&lt;br&gt;in&amp;nbsp;playbackChannelsList" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1081" y="1720" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-25" value="get Vuex.allChannelsList" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1281" y="1360" width="160" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-26" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1101" y="1840" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="wEsHkVYPiLB_6dhYGix4-28" target="wEsHkVYPiLB_6dhYGix4-22" parent="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="wEsHkVYPiLB_6dhYGix4-28" value="&lt;font color=&quot;#000000&quot;&gt;统一处理 indexOfChannels 索引&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1041" y="1560" width="240" height="40" as="geometry" />
+          <mxGeometry x="1241" y="1240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
