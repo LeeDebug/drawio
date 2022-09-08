@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T06:53:17.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_6_j8Mxc9nBw8rxWtkcG" version="20.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-08T06:55:28.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jHxqbMcQByo4r7grOHgA" version="20.2.7" type="github" pages="2">
   <diagram id="r5mIExqQhruA3w9a25Ks" name="MSE与Native切换">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,6 +138,14 @@
         </object>
         <mxCell id="3z6edAKmwaeDPocG3Skz-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3z6edAKmwaeDPocG3Skz-3" target="3z6edAKmwaeDPocG3Skz-17">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3z6edAKmwaeDPocG3Skz-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="3z6edAKmwaeDPocG3Skz-3" target="3z6edAKmwaeDPocG3Skz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3z6edAKmwaeDPocG3Skz-45" value="U6 及以前逻辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3z6edAKmwaeDPocG3Skz-44">
+          <mxGeometry x="-0.1402" y="1" relative="1" as="geometry">
+            <mxPoint x="36" y="-5" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3z6edAKmwaeDPocG3Skz-3" value="获取启动 URL" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="120" height="40" as="geometry" />
