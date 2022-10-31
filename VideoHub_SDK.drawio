@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T15:12:54.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="65R5MTbygon2m27bPodN" version="20.2.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-31T15:15:41.368Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="QEReeNYDFA8DfSK5gBfQ" version="20.2.6" type="github" pages="4">
   <diagram name="Architecture C1" id="PLySDpZhw0bRO1F781s7">
     <mxGraphModel dx="2253" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -335,26 +335,26 @@
       <root>
         <mxCell id="pZB1W2WnBAyAyNsiayDL-0" />
         <mxCell id="pZB1W2WnBAyAyNsiayDL-1" parent="pZB1W2WnBAyAyNsiayDL-0" />
-        <mxCell id="pZB1W2WnBAyAyNsiayDL-41" value="HiPlayer" style="swimlane;labelBackgroundColor=none;fontColor=default;swimlaneFillColor=none;fillColor=#FFFF99;startSize=30;" vertex="1" parent="pZB1W2WnBAyAyNsiayDL-1">
-          <mxGeometry x="-760" y="80" width="480" height="200" as="geometry" />
+        <mxCell id="pZB1W2WnBAyAyNsiayDL-41" value="HiPlayer or Vidaa Lite" style="swimlane;labelBackgroundColor=none;fontColor=default;swimlaneFillColor=none;fillColor=#FFFF99;startSize=30;" vertex="1" parent="pZB1W2WnBAyAyNsiayDL-1">
+          <mxGeometry x="-760" y="80" width="680" height="400" as="geometry" />
         </mxCell>
         <mxCell id="pZB1W2WnBAyAyNsiayDL-42" value="VideoHub" style="swimlane;startSize=30;" vertex="1" parent="pZB1W2WnBAyAyNsiayDL-41">
-          <mxGeometry x="20" y="50" width="440" height="130" as="geometry" />
+          <mxGeometry x="20" y="50" width="640" height="330" as="geometry" />
         </mxCell>
         <mxCell id="pZB1W2WnBAyAyNsiayDL-43" value="hls.js" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" vertex="1" parent="pZB1W2WnBAyAyNsiayDL-42">
-          <mxGeometry x="20" y="50" width="66.88" height="60" as="geometry" />
+          <mxGeometry x="20" y="190" width="66.88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ksf4qCLD5_i7bQAuxsC--0" value="dash.js" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" vertex="1" parent="pZB1W2WnBAyAyNsiayDL-42">
-          <mxGeometry x="100" y="50" width="66.88" height="60" as="geometry" />
+          <mxGeometry x="100" y="190" width="66.88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ksf4qCLD5_i7bQAuxsC--1" value="video.js" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" vertex="1" parent="pZB1W2WnBAyAyNsiayDL-42">
-          <mxGeometry x="180" y="50" width="66.88" height="60" as="geometry" />
+          <mxGeometry x="180" y="190" width="66.88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ksf4qCLD5_i7bQAuxsC--2" value="shaka.js" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" vertex="1" parent="pZB1W2WnBAyAyNsiayDL-42">
-          <mxGeometry x="259.62" y="50" width="66.88" height="60" as="geometry" />
+          <mxGeometry x="259.62" y="190" width="66.88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ksf4qCLD5_i7bQAuxsC--3" value="and so on..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" vertex="1" parent="pZB1W2WnBAyAyNsiayDL-42">
-          <mxGeometry x="340" y="50" width="80" height="60" as="geometry" />
+          <mxGeometry x="340" y="190" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
