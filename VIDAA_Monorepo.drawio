@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T08:18:42.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="UL85bT7D3R1taOSAxorM" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T08:20:29.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2ZSsiivvrdt6efc1S5Vu" version="20.8.18" type="github">
   <diagram name="Page-1" id="2L-cOZeSmo-Xu8jlNMAm">
     <mxGraphModel dx="1646" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,12 +24,12 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Odin" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="LxKQGS648OkQD__flQ3X-3">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
             <mxGeometry x="1100" y="1169" width="200" height="50" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Vewd" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="LxKQGS648OkQD__flQ3X-4">
-          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
             <mxGeometry x="1320" y="1169" width="200" height="50" as="geometry" />
           </mxCell>
         </object>
@@ -121,13 +121,13 @@
         <mxCell id="LxKQGS648OkQD__flQ3X-36" value="And So On..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="730" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LxKQGS648OkQD__flQ3X-37" value="biz" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="LxKQGS648OkQD__flQ3X-37" value="vre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="860" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-38" value="And So On..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="990" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LxKQGS648OkQD__flQ3X-39" value="vre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="LxKQGS648OkQD__flQ3X-39" value="biz" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="860" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-40" value="VUI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -147,7 +147,7 @@
         </mxCell>
         <object placeholders="1" c4Name="VIDAA_UI Monorepo" c4Type="SystemScopeBoundary" c4Application="Monorepo" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="LxKQGS648OkQD__flQ3X-45">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="880" y="560" width="640" height="580" as="geometry" />
+            <mxGeometry x="880" y="560" width="760" height="580" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Cobalt" c4Type="SystemScopeBoundary" c4Application="Platform Browser" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="LxKQGS648OkQD__flQ3X-46">
@@ -157,22 +157,22 @@
         </object>
         <object placeholders="1" c4Name="App Modules" c4Type="SystemScopeBoundary" c4Application="Modules" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="LxKQGS648OkQD__flQ3X-47">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="900" y="580" width="580" height="110" as="geometry" />
+            <mxGeometry x="900" y="580" width="720" height="110" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="UI Framework" c4Type="SystemScopeBoundary" c4Application="Modules" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="LxKQGS648OkQD__flQ3X-48">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="900" y="710" width="580" height="110" as="geometry" />
+            <mxGeometry x="900" y="710" width="720" height="110" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="UI SDK" c4Type="SystemScopeBoundary" c4Application="Modules" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="LxKQGS648OkQD__flQ3X-49">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="900" y="840" width="580" height="110" as="geometry" />
+            <mxGeometry x="900" y="840" width="720" height="110" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="build" c4Type="SystemScopeBoundary" c4Application="Modules" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="LxKQGS648OkQD__flQ3X-50">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="900" y="970" width="580" height="110" as="geometry" />
+            <mxGeometry x="900" y="970" width="720" height="110" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="LxKQGS648OkQD__flQ3X-51" value="Launcher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
@@ -184,8 +184,8 @@
         <mxCell id="LxKQGS648OkQD__flQ3X-53" value="Search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1200" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LxKQGS648OkQD__flQ3X-54" value="And So On..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="600" width="120" height="40" as="geometry" />
+        <mxCell id="LxKQGS648OkQD__flQ3X-54" value="WebApp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-55" value="Store" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="730" width="120" height="40" as="geometry" />
@@ -200,13 +200,13 @@
           <mxGeometry x="1340" y="730" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-59" value="biz" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="860" width="120" height="40" as="geometry" />
+          <mxGeometry x="1200" y="860" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-60" value="And So On..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1340" y="990" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-61" value="vre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="860" width="120" height="40" as="geometry" />
+          <mxGeometry x="1340" y="860" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-62" value="VUI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="920" y="860" width="120" height="40" as="geometry" />
@@ -225,6 +225,12 @@
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-67" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="840" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LxKQGS648OkQD__flQ3X-68" value="And So On..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LxKQGS648OkQD__flQ3X-69" value="webapp vre" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="860" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
