@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T09:39:24.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WVG0wDmFzI_l7rMXwc3M" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T09:41:43.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="G1Mr-aaGT5BFV2oaz11v" version="20.8.18" type="github">
   <diagram name="Page-1" id="2L-cOZeSmo-Xu8jlNMAm">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,9 +202,6 @@
         <mxCell id="LxKQGS648OkQD__flQ3X-100" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="700" y="985" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LxKQGS648OkQD__flQ3X-101" value="&lt;p style=&quot;line-height: 100%; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; color=&quot;#000000&quot;&gt;打包成多套&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout;fontSize=16;fontColor=#FF3333;fillColor=none;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
-          <mxGeometry x="920" y="920" width="200" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-103" value="Router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="755" y="730" width="55" height="40" as="geometry" />
         </mxCell>
@@ -219,6 +216,30 @@
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-108" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="910" y="600" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LxKQGS648OkQD__flQ3X-109" value="内部兼容，打包成多套" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};dashed=1;dashPattern=1 4;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="960" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LxKQGS648OkQD__flQ3X-110" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#FF3333;" edge="1" target="LxKQGS648OkQD__flQ3X-109" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="1020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LxKQGS648OkQD__flQ3X-111" value="尽量少的改动" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};dashed=1;dashPattern=1 4;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="720" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LxKQGS648OkQD__flQ3X-112" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#000000;" edge="1" target="LxKQGS648OkQD__flQ3X-111" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="800" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LxKQGS648OkQD__flQ3X-113" value="改为按需引入" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};dashed=1;dashPattern=1 4;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="840" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LxKQGS648OkQD__flQ3X-114" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=#000000;" edge="1" target="LxKQGS648OkQD__flQ3X-113" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="922" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
