@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T06:09:29.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="XDUyQKsVP5NBM4K59kIw" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T06:09:46.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Pm9itKo5A1M8QlCW2LEF" version="20.8.20" type="github">
   <diagram name="Page-1" id="2L-cOZeSmo-Xu8jlNMAm">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,13 +83,13 @@
             <mxGeometry x="100" y="540" width="110" height="460" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="LxKQGS648OkQD__flQ3X-51" value="Launcher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="LxKQGS648OkQD__flQ3X-51" value="Launcher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="250" y="560" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LxKQGS648OkQD__flQ3X-52" value="Vidaa Plus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="LxKQGS648OkQD__flQ3X-52" value="Vidaa Plus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="390" y="560" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LxKQGS648OkQD__flQ3X-53" value="Search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="LxKQGS648OkQD__flQ3X-53" value="Search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="530" y="560" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LxKQGS648OkQD__flQ3X-54" value="Free" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -122,7 +122,7 @@
         <mxCell id="LxKQGS648OkQD__flQ3X-66" value="log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="120" y="720" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LxKQGS648OkQD__flQ3X-68" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="LxKQGS648OkQD__flQ3X-68" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="670" y="560" width="30" height="40" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="VIDAA_UI Monorepo" c4Type="SystemScopeBoundary" c4Application="Git / SVN" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="LxKQGS648OkQD__flQ3X-70">
