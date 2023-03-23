@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T03:12:12.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="18TtCasenrBc-tZVCSHR" version="21.0.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-23T03:14:11.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="r9IwvyXV9YdRX7scF0CE" version="21.0.10" type="github" pages="2">
   <diagram name="System/Sub-System Overview" id="2L-cOZeSmo-Xu8jlNMAm">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -372,7 +372,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tB5lniQXx7v4U3VexSkj" name="WebCompiler">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -419,9 +419,8 @@
           <mxGeometry x="850" y="80" width="140" height="600" as="geometry" />
         </mxCell>
         <mxCell id="A4qBjmfrXXVflw_9Kbl0-19" value="2.真正触发的执行文件" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="A4qBjmfrXXVflw_9Kbl0-18" parent="1" source="A4qBjmfrXXVflw_9Kbl0-3">
-          <mxGeometry x="0.0032" relative="1" as="geometry">
+          <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="200" as="sourcePoint" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="A4qBjmfrXXVflw_9Kbl0-32" value="3. 获取 Args 启动参数" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="A4qBjmfrXXVflw_9Kbl0-31" parent="1">
@@ -446,24 +445,24 @@
         <mxCell id="A4qBjmfrXXVflw_9Kbl0-35" value="&amp;nbsp; &amp;nbsp;WebApp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;size=60;" vertex="1" parent="1">
           <mxGeometry x="1200" y="80" width="80" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="A4qBjmfrXXVflw_9Kbl0-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="A4qBjmfrXXVflw_9Kbl0-35">
+        <mxCell id="A4qBjmfrXXVflw_9Kbl0-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="A4qBjmfrXXVflw_9Kbl0-35">
           <mxGeometry x="35" y="280" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="A4qBjmfrXXVflw_9Kbl0-39" value="5. 读取当前 App 的 appconfig.js 配置文件" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.499;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="A4qBjmfrXXVflw_9Kbl0-41" parent="1" source="A4qBjmfrXXVflw_9Kbl0-4">
+        <mxCell id="A4qBjmfrXXVflw_9Kbl0-39" value="5. 读取当前 App 的 appconfig.js 配置文件" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.498;exitY=0.483;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="A4qBjmfrXXVflw_9Kbl0-38" parent="1" source="A4qBjmfrXXVflw_9Kbl0-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="430" as="sourcePoint" />
-            <mxPoint x="1235" y="410" as="targetPoint" />
+            <mxPoint x="1175" y="450" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1190" y="430" />
+              <mxPoint x="970" y="370" />
               <mxPoint x="940" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="A4qBjmfrXXVflw_9Kbl0-42" value="5. 读取当前 App 的 appconfig.js 配置文件" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.499;exitY=0.483;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="A4qBjmfrXXVflw_9Kbl0-41" parent="1" source="A4qBjmfrXXVflw_9Kbl0-4">
+        <mxCell id="A4qBjmfrXXVflw_9Kbl0-40" value="6. 返回配置文件，读取 APP_NAME 和 LOW_APP_NAME 属性" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="A4qBjmfrXXVflw_9Kbl0-38" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="419" y="370" as="sourcePoint" />
+            <mxPoint x="420" y="430" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="940" y="370" />
+              <mxPoint x="1020" y="430" />
+              <mxPoint x="1010" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
