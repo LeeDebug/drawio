@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T02:10:33.488Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eHAksXRJmuTQNafcUbFI" version="21.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-28T02:13:05.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8dhN1xH-eKFTVnMEQ5I9" version="21.1.1" type="github" pages="3">
   <diagram name="System/Sub-System Overview" id="2L-cOZeSmo-Xu8jlNMAm">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -601,6 +601,17 @@
         <mxCell id="V92EydGJ1r16gkS3dVMq-17" value="4. 初始化 Vue 脚手架" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="V92EydGJ1r16gkS3dVMq-16" parent="1VO_EL0Iz5KeoS1XYj0s-1" source="1VO_EL0Iz5KeoS1XYj0s-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="605" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V92EydGJ1r16gkS3dVMq-20" value="&amp;nbsp; Vue" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlBoundary;size=60;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1VO_EL0Iz5KeoS1XYj0s-1">
+          <mxGeometry x="1340" y="80" width="80" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="V92EydGJ1r16gkS3dVMq-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="V92EydGJ1r16gkS3dVMq-20">
+          <mxGeometry x="35" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V92EydGJ1r16gkS3dVMq-23" value="注册&amp;nbsp;i18n、注册&amp;nbsp;router 路由、注册 vuex 仓库、注册 VUI 的&amp;nbsp;focusManager 焦点管理器；最终挂载到&amp;nbsp;#app 节点上" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="V92EydGJ1r16gkS3dVMq-22" parent="1VO_EL0Iz5KeoS1XYj0s-1" source="V92EydGJ1r16gkS3dVMq-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
