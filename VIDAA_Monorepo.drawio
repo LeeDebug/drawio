@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T02:09:04.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LWunQNpUP5NX_XxNteeh" version="21.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-28T02:10:33.488Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eHAksXRJmuTQNafcUbFI" version="21.1.1" type="github" pages="3">
   <diagram name="System/Sub-System Overview" id="2L-cOZeSmo-Xu8jlNMAm">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -535,6 +535,17 @@
         </mxCell>
         <mxCell id="1VO_EL0Iz5KeoS1XYj0s-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1VO_EL0Iz5KeoS1XYj0s-5">
           <mxGeometry x="45" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V92EydGJ1r16gkS3dVMq-19" value="GLOBAL&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;和&lt;br&gt;VERSION" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="1VO_EL0Iz5KeoS1XYj0s-6" parent="1VO_EL0Iz5KeoS1XYj0s-5">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint x="55" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="140" />
+              <mxPoint x="100" y="180" />
+            </Array>
+            <mxPoint x="60" y="170.0000000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1VO_EL0Iz5KeoS1XYj0s-9" value="1. 运行时入口" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1VO_EL0Iz5KeoS1XYj0s-1" source="1VO_EL0Iz5KeoS1XYj0s-2" target="1VO_EL0Iz5KeoS1XYj0s-4">
           <mxGeometry x="-0.0096" relative="1" as="geometry">
