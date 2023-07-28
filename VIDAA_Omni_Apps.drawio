@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T02:04:39.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kXOz_s_EMgEQwhijuUBP" version="21.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-07-28T02:35:36.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9XwJdDQigPwIn6_hBvJW" version="21.6.5" type="github" pages="7">
   <diagram name="System/Sub-System Overview" id="2L-cOZeSmo-Xu8jlNMAm">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1252,25 +1252,25 @@
         <mxCell id="_WMfOuCVOjo7aQKTuz1Q-69" value="applicationVideo.vue" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;shadow=0;hachureGap=4;strokeColor=default;fontFamily=Helvetica;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry y="778" width="320" height="208" as="geometry" />
         </mxCell>
-        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-70" value="+ videoComponent(): Conponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
+        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-70" value="+ videoComponent(): Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-71" value="+ continueDialog(): Conponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
+        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-71" value="+ continueDialog(): Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
           <mxGeometry y="52" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-72" value="+ videoProgress(): Conponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
+        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-72" value="+ videoProgress(): Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
           <mxGeometry y="78" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-73" value="+ btnList(): Conponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
+        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-73" value="+ btnList(): Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
           <mxGeometry y="104" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-74" value="+ episodeList(): Conponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
+        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-74" value="+ episodeList(): Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
           <mxGeometry y="130" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-75" value="+ audioSubtile(): Conponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
+        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-75" value="+ audioSubtile(): Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
           <mxGeometry y="156" width="320" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-76" value="+ definitionList(): Conponent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
+        <mxCell id="_WMfOuCVOjo7aQKTuz1Q-76" value="+ definitionList(): Component" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="_WMfOuCVOjo7aQKTuz1Q-69">
           <mxGeometry y="182" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_WMfOuCVOjo7aQKTuz1Q-77" value="ottVideo.vue" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;shadow=0;hachureGap=4;strokeColor=default;fontFamily=Helvetica;fontSize=20;fontColor=default;fillColor=default;" vertex="1" parent="1">
