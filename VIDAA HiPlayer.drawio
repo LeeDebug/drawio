@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T09:54:24.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2sRpQhLJqrmmrSwaAT21" version="21.6.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-07-31T09:56:34.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4Xsgw7zmJzOLxzmq6n1p" version="21.6.5" type="github" pages="7">
   <diagram id="r5mIExqQhruA3w9a25Ks" name="MSE与Native切换">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -615,7 +615,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tMlcBi685zTQghpppUxc" name="Container Diagram 容器图">
-    <mxGraphModel dx="2537" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -646,12 +646,12 @@
         </mxCell>
         <object placeholders="1" c4Name="JHK Cloud" c4Type="External System" c4Description="Save media asset information, watch history, and advertising content." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="qAhF0RHkh9mFL0z07ujq-9">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=#333333;" parent="1" vertex="1">
-            <mxGeometry x="40" y="480" width="240" height="120" as="geometry" />
+            <mxGeometry x="40" y="560" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="qAhF0RHkh9mFL0z07ujq-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" target="qAhF0RHkh9mFL0z07ujq-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-80" y="540" as="sourcePoint" />
+            <mxPoint x="-80" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qAhF0RHkh9mFL0z07ujq-11" value="Request Media&lt;br&gt;Information" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qAhF0RHkh9mFL0z07ujq-10" vertex="1" connectable="0">
@@ -661,7 +661,7 @@
         </mxCell>
         <mxCell id="qAhF0RHkh9mFL0z07ujq-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" target="qAhF0RHkh9mFL0z07ujq-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-70" y="690" as="sourcePoint" />
+            <mxPoint x="-80" y="780" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qAhF0RHkh9mFL0z07ujq-13" value="Playback&lt;br&gt;Streaming Media" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qAhF0RHkh9mFL0z07ujq-12" vertex="1" connectable="0">
@@ -671,7 +671,7 @@
         </mxCell>
         <object placeholders="1" c4Name="Odin/Vewd Broswer" c4Type="External System" c4Description="Provide streaming media parsing protocol stack." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="qAhF0RHkh9mFL0z07ujq-15">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#333333;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" parent="1" vertex="1">
-            <mxGeometry x="40" y="640" width="240" height="120" as="geometry" />
+            <mxGeometry x="40" y="720" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="VIDAA HiPlayer" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="qAhF0RHkh9mFL0z07ujq-16">
@@ -690,20 +690,20 @@
             <mxPoint x="-59" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5_775ze1f49_cxB21c7C-6" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="5_775ze1f49_cxB21c7C-1" target="5_775ze1f49_cxB21c7C-3">
+        <mxCell id="5_775ze1f49_cxB21c7C-6" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="5_775ze1f49_cxB21c7C-1" target="5_775ze1f49_cxB21c7C-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5_775ze1f49_cxB21c7C-7" value="Replacement of advertising parameters" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="5_775ze1f49_cxB21c7C-6">
           <mxGeometry x="0.1661" y="2" relative="1" as="geometry">
-            <mxPoint x="98" y="-7" as="offset" />
+            <mxPoint x="-93" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5_775ze1f49_cxB21c7C-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="5_775ze1f49_cxB21c7C-1" target="5_775ze1f49_cxB21c7C-4">
+        <mxCell id="5_775ze1f49_cxB21c7C-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" edge="1" parent="1" source="5_775ze1f49_cxB21c7C-1" target="5_775ze1f49_cxB21c7C-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="HiPlayer UI" c4Type="Business Module" c4Description="Provide streaming media parsing protocol stack." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="5_775ze1f49_cxB21c7C-1">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#3162AF;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#2E5BA3;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontSize=11;hachureGap=4;" vertex="1" parent="1">
-            <mxGeometry x="-720" y="520" width="240" height="120" as="geometry" />
+            <mxGeometry x="-540" y="520" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="VIDAA App" c4Type="Business Module" c4Description="Free, Store, Sports, Art, etc." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="5_775ze1f49_cxB21c7C-2">
@@ -718,7 +718,7 @@
         </object>
         <object placeholders="1" c4Name="Phoenix (vidaatvjs)" c4Type="Technical Module" c4Description="Wrapping browser-provided methods." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="5_775ze1f49_cxB21c7C-4">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#3162AF;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#2E5BA3;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontSize=11;hachureGap=4;" vertex="1" parent="1">
-            <mxGeometry x="-360" y="520" width="240" height="120" as="geometry" />
+            <mxGeometry x="-360" y="720" width="240" height="120" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="VIDAA Service" c4Type="Business Module" c4Description="Vidaa Plus, launcher, etc." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="5_775ze1f49_cxB21c7C-10">
