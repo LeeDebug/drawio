@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T08:38:56.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="-quvXVbUjPJvLpMpGW4O" version="21.6.9" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-29T08:40:39.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Pj7ysHuurgG_-bzgyyN3" version="21.6.9" type="github" pages="5">
   <diagram name="启动流程图" id="OmMjOVtj1WEUcLDQ50cM">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -296,7 +296,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-6" value="1. 运行时入口" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-0" target="xPAIn7jwNp17_iDfmiHx-2" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-6" value="1. Runtime entry" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-0" target="xPAIn7jwNp17_iDfmiHx-2" edge="1">
           <mxGeometry x="-0.0096" relative="1" as="geometry">
             <mxPoint x="150" y="160" as="sourcePoint" />
             <mxPoint as="offset" />
@@ -317,7 +317,7 @@
         <mxCell id="xPAIn7jwNp17_iDfmiHx-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="xPAIn7jwNp17_iDfmiHx-10" vertex="1">
           <mxGeometry x="45" y="280" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-12" value="2. 初始化全局变量" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-4" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-12" value="2. Initializing global variables" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="200" as="sourcePoint" />
           </mxGeometry>
@@ -340,7 +340,7 @@
         <mxCell id="xPAIn7jwNp17_iDfmiHx-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="xPAIn7jwNp17_iDfmiHx-17" vertex="1">
           <mxGeometry x="45" y="440" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-19" value="按键和消息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;dashed=1;" parent="xPAIn7jwNp17_iDfmiHx-17" target="xPAIn7jwNp17_iDfmiHx-18" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-19" value="Buttons and Messages" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;dashed=1;" parent="xPAIn7jwNp17_iDfmiHx-17" target="xPAIn7jwNp17_iDfmiHx-18" edge="1">
           <mxGeometry x="0.0909" y="5" relative="1" as="geometry">
             <mxPoint x="55" y="450" as="sourcePoint" />
             <Array as="points">
@@ -352,17 +352,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-23" value="3. 初始化 VUI 组件库" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-9" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-23" value="3. Initialize the VUI component library" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="465" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-24" value="安装 VUI、初始化主题、初始化对比度、初始化多语言 等等" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-9" target="xPAIn7jwNp17_iDfmiHx-14" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-24" value="Install VUI, initialize themes, initialize contrast, initialize multi-language, and more!" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-9" target="xPAIn7jwNp17_iDfmiHx-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1195" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-25" value="4. 初始化 Vue 脚手架" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-11" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-25" value="4. Initialize Vue Scaffolding" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="605" y="320" as="sourcePoint" />
           </mxGeometry>
@@ -373,12 +373,12 @@
         <mxCell id="xPAIn7jwNp17_iDfmiHx-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="xPAIn7jwNp17_iDfmiHx-26" vertex="1">
           <mxGeometry x="30" y="280" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-28" value="注册&amp;nbsp;i18n、注册&amp;nbsp;router 路由、注册 vuex 仓库、注册 VUI 的&amp;nbsp;focusManager 焦点管理器；最终挂载到&amp;nbsp;#app 节点上" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-11" target="xPAIn7jwNp17_iDfmiHx-27" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-28" value="Register i18n, register router routing, register vuex repository, &lt;br&gt;register VUI&#39;s focusManager focus manager; eventually mount to #app node" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-11" target="xPAIn7jwNp17_iDfmiHx-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1315" y="360" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-29" value="5.&amp;nbsp;初始化 PWA 消息监听" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-16" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-29" value="4. Initialize Vue Scaffolding" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="745" y="440" as="sourcePoint" />
           </mxGeometry>
@@ -389,12 +389,12 @@
         <mxCell id="xPAIn7jwNp17_iDfmiHx-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="xPAIn7jwNp17_iDfmiHx-30" vertex="1">
           <mxGeometry x="40" y="360" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-32" value="调用&amp;nbsp;runtime 模块的 install 方法注册相关依赖，然后监听&amp;nbsp;onUpdateReady 和&amp;nbsp;onUpdated 等消息进行下载更新" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-16" target="xPAIn7jwNp17_iDfmiHx-31" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-32" value="Call the runtime module&#39;s install method to register the dependencies &lt;br&gt;and then listen for messages such as onUpdateReady and onUpdated to download the updates." style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-16" target="xPAIn7jwNp17_iDfmiHx-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1440" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xPAIn7jwNp17_iDfmiHx-33" value="6.&amp;nbsp;初始化 Event 全局事件注册" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-18" edge="1">
+        <mxCell id="xPAIn7jwNp17_iDfmiHx-33" value="6. Initialize Event global event registration" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="xyCMXDjUnVWn2i5L96T--1" source="xPAIn7jwNp17_iDfmiHx-1" target="xPAIn7jwNp17_iDfmiHx-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="885" y="520" as="sourcePoint" />
           </mxGeometry>
